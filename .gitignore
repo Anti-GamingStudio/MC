@@ -73,14 +73,7 @@ Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
-MCMigration/Config/
-MCMigration/Content/Geometry/
-MCMigration/Content/StarterContent/
-MCMigration/Intermediate/
-MCMigration/Saved/Config/
-MCMigration/Saved/
-MCMigration/Content/ThirdPerson/
-MCMigrate/Saved/
+
 MCMigrate/Intermediate/
 MCMigrate/Content/StarterContent/
-MCMigrate/Config/
+
