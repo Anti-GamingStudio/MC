@@ -7,7 +7,7 @@ not all rights belong to me,because there are multiple contributors. Therefore I
 
 # how to get started
 
-1.Create a game file "MCMigration" in unreal engine
+1.Create a game file "MCMigrate" in unreal engine
 
 2.copy the repository onto your computer
 
