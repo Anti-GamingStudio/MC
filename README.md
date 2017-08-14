@@ -13,4 +13,11 @@ not all rights belong to me,because there are multiple contributors. Therefore I
 
 3.start contributing!
 
+# KEYBINDS:
 
+Magic slot up : v
+Magic slot down: c
+Cast Magic: F
+Lock-on dark magic: T
+
+????? test : E
