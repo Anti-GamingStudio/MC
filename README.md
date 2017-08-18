@@ -20,4 +20,6 @@ Magic slot down: c
 Cast Magic: F
 Lock-on dark magic: T
 
-????? test : E
+Run: shift
+Save Game: F5
+Load Game: F9
