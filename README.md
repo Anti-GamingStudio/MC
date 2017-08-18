@@ -16,10 +16,15 @@ not all rights belong to me,because there are multiple contributors. Therefore I
 # KEYBINDS:
 
 Magic slot up : v
+
 Magic slot down: c
+
 Cast Magic: F
+
 Lock-on dark magic: T
 
 Run: shift
+
 Save Game: F5
+
 Load Game: F9
