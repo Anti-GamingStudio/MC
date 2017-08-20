@@ -28,3 +28,7 @@ Run: shift
 Save Game: F5
 
 Load Game: F9
+
+Ragdoll: LMB //only for testing purpose
+
+Unragdoll: Caps Lock //only for testing purpose //not working yet
