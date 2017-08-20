@@ -1,0 +1,964 @@
+﻿Log file open, 08/18/17 08:39:46
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VSPerf140.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: MCMigrate
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-1763251319) SRandInit(-1763251318).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.212985
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: D:/unreal/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.18-04.39.47:236][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.18-04.39.47:236][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.18-04.39.47:290][  0]LogInit: Computer: SOMNIUM
+[2017.08.18-04.39.47:290][  0]LogInit: User: acer
+[2017.08.18-04.39.47:290][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.08.18-04.39.47:290][  0]LogInit: High frequency timer resolution =2.531251 MHz
+[2017.08.18-04.39.47:291][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.08.18-04.39.47:291][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.18-04.39.47:291][  0]LogMemory: Process Physical Memory: 277.97 MB used, 277.97 MB peak
+[2017.08.18-04.39.47:291][  0]LogMemory: Process Virtual Memory: 274.19 MB used, 274.19 MB peak
+[2017.08.18-04.39.47:291][  0]LogMemory: Physical Memory: 5949.77 MB used,  10292.70 MB free, 16242.46 MB total
+[2017.08.18-04.39.47:291][  0]LogMemory: Virtual Memory: 668.86 MB used,  10292.70 MB free, 134217728.00 MB total
+[2017.08.18-04.39.47:421][  0]LogInit: Using OS detected language (ru-RU).
+[2017.08.18-04.39.47:421][  0]LogInit: Using OS detected locale (en-US).
+[2017.08.18-04.39.47:424][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the language.
+[2017.08.18-04.39.48:405][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.18-04.39.49:224][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 950M' (Feature Level 11_0)
+[2017.08.18-04.39.49:224][  0]LogD3D11RHI:       4065/0/8121 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.08.18-04.39.49:231][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2017.08.18-04.39.49:231][  0]LogD3D11RHI:       128/0/8121 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.08.18-04.39.49:232][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.18-04.39.49:232][  0]LogD3D11RHI:       0/0/8121 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.18-04.39.49:232][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.18-04.39.49:237][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.18-04.39.49:237][  0]LogD3D11RHI:     GPU DeviceId: 0x139a (for the marketing name, search the web for "GPU Device Id")
+[2017.08.18-04.39.49:238][  0]LogWindows: EnumDisplayDevices:
+[2017.08.18-04.39.49:238][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2017.08.18-04.39.49:238][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.08.18-04.39.49:238][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.08.18-04.39.49:238][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.08.18-04.39.49:238][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 950M
+[2017.08.18-04.39.49:238][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.08.18-04.39.49:238][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.08.18-04.39.49:238][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.18-04.39.49:918][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.18-04.39.50:182][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.08.18-04.39.50:184][  0]LogShaderCompilers: Guid format shader working directory is 2 characters bigger than the processId version (../../../../../unreal_projects/MC/MCMigrate/Intermediate/Shaders/WorkingDirectory/5836/).
+[2017.08.18-04.39.50:184][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/acer/AppData/Local/Temp/UnrealShaderWorkingDir/881A92B24025577A8EE9AA8D37D9C172/'.
+[2017.08.18-04.39.50:185][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.08.18-04.39.51:445][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.18-04.39.51:509][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.08.18-04.39.51:558][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.18-04.39.51:592][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.08.18-04.39.51:668][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.08.18-04.39.51:722][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.18-04.39.51:757][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.18-04.39.51:792][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.18-04.39.51:820][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.08.18-04.39.51:858][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.08.18-04.39.51:892][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.18-04.39.51:927][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.18-04.39.51:962][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.18-04.39.51:996][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.18-04.39.52:030][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.18-04.39.52:100][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.18-04.39.52:100][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.18-04.39.52:126][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.08.18-04.39.52:201][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.08.18-04.39.52:226][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.08.18-04.39.52:309][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.18-04.39.52:389][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.18-04.39.52:464][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.18-04.39.52:562][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.08.18-04.39.52:562][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.08.18-04.39.52:976][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.08.18-04.39.53:087][  0]LogDerivedDataCache: Loaded boot cache 0.11s 93MB C:/Users/acer/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.08.18-04.39.53:087][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/acer/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.08.18-04.39.53:087][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../unreal_projects/MC/MCMigrate/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.18-04.39.53:087][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.18-04.39.53:087][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../unreal_projects/MC/MCMigrate/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.18-04.39.53:087][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.18-04.39.53:125][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.18-04.39.53:138][  0]LogDerivedDataCache: Using Local data cache path C:/Users/acer/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.18-04.39.53:155][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.18-04.39.53:156][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.18-04.39.53:157][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.18-04.39.53:157][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.18-04.39.53:421][  0]LogAssetRegistry: FAssetRegistry took 0.0264 seconds to start up
+[2017.08.18-04.39.53:614][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.18-04.39.53:769][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.18-04.39.54:062][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.18-04.39.54:106][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.18-04.39.54:106][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.18-04.39.54:106][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.08.18-04.39.54:106][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.08.18-04.39.54:106][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.08.18-04.39.54:767][  0]LogNetVersion: MCMigrate , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2332261947)
+[2017.08.18-04.39.55:144][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.108780 seconds
+[2017.08.18-04.39.55:162][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.08.18-04.39.55:162][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.08.18-04.39.55:162][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.18-04.39.55:233][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.18-04.39.58:992][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.18-04.39.59:058][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.18-04.40.00:093][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.18-04.40.00:632][  0]SourceControl: Source control is disabled
+[2017.08.18-04.40.00:632][  0]SourceControl: Source control is disabled
+[2017.08.18-04.40.00:671][  0]SourceControl: Source control is disabled
+[2017.08.18-04.40.00:707][  0]SourceControl: Source control is disabled
+[2017.08.18-04.40.01:244][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.18-04.40.01:639][  0]LogOcInput: OculusInput pre-init called
+[2017.08.18-04.40.01:919][  0]LogEngine: Initializing Engine...
+[2017.08.18-04.40.01:924][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.18-04.40.02:468][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.18-04.40.02:468][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.18-04.40.02:561][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.18-04.40.02:569][  0]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.18-04.40.02:780][  0]LogInit: FAudioDevice initialized.
+[2017.08.18-04.40.02:951][  0]LogDerivedDataCache: Saved boot cache 0.17s 93MB C:/Users/acer/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.08.18-04.40.02:997][  0]LogInit: Texture streaming: Enabled
+[2017.08.18-04.40.03:112][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.18-04.40.03:289][  0]LogInit: Transaction tracking system initialized
+[2017.08.18-04.40.03:520][  0]BlueprintLog: New page: Editor Load
+[2017.08.18-04.40.04:603][  0]LocalizationService: Localization service is disabled
+[2017.08.18-04.40.05:664][  0]LogConsoleResponse: Display: 
+[2017.08.18-04.40.05:850][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.18-04.40.05:850][  0]LogCook: Display: Mobile HDR setting 1
+[2017.08.18-04.40.05:850][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.08.18-04.40.06:718][  0]LogFileCache: Scanning file cache for directory 'D:/unreal_projects/MC/MCMigrate/Content/' took 0.02s
+[2017.08.18-04.40.06:756][  0]SourceControl: Source control is disabled
+[2017.08.18-04.40.06:756][  0]Cmd: MAP LOAD FILE="../../../../../unreal_projects/MC/MCMigrate/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.18-04.40.06:866][  0]LightingResults: New page: Lighting Build
+[2017.08.18-04.40.06:937][  0]MapCheck: New page: Map Check
+[2017.08.18-04.40.06:937][  0]LightingResults: New page: Lighting Build
+[2017.08.18-04.40.12:404][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Explosion_Cue'
+[2017.08.18-04.40.12:404][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Explosion_Cue' while loading ../../../../../unreal_projects/MC/MCMigrate/Content/ThirdPersonBP/Blueprints/MCMigration.uasset.
+[2017.08.18-04.40.12:404][  0]LoadErrors: Error: /Game/ThirdPersonBP/Blueprints/MCMigration : Can't find file for asset. /Game/StarterContent/Audio/Explosion_Cue
+[2017.08.18-04.40.12:405][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Particles/P_Explosion'
+[2017.08.18-04.40.12:405][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Particles/P_Explosion' while loading ../../../../../unreal_projects/MC/MCMigrate/Content/ThirdPersonBP/Blueprints/MCMigration.uasset.
+[2017.08.18-04.40.12:405][  0]LoadErrors: Error: /Game/ThirdPersonBP/Blueprints/MCMigration : Can't find file for asset. /Game/StarterContent/Particles/P_Explosion
+[2017.08.18-04.40.12:405][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Particles/P_Explosion'
+[2017.08.18-04.40.12:405][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Particles/P_Explosion' while loading ../../../../../unreal_projects/MC/MCMigrate/Content/ThirdPersonBP/Blueprints/MCMigration.uasset.
+[2017.08.18-04.40.12:405][  0]LoadErrors: Error: /Game/ThirdPersonBP/Blueprints/MCMigration : Can't find file for asset. /Game/StarterContent/Particles/P_Explosion
+[2017.08.18-04.40.12:405][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Explosion_Cue'
+[2017.08.18-04.40.12:405][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Explosion_Cue' while loading ../../../../../unreal_projects/MC/MCMigrate/Content/ThirdPersonBP/Blueprints/MCMigration.uasset.
+[2017.08.18-04.40.12:405][  0]LoadErrors: Error: /Game/ThirdPersonBP/Blueprints/MCMigration : Can't find file for asset. /Game/StarterContent/Audio/Explosion_Cue
+[2017.08.18-04.40.12:406][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Particles/P_Explosion'
+[2017.08.18-04.40.12:406][  0]LoadErrors: Failed to load /Game/StarterContent/Particles/P_Explosion.P_Explosion Referenced by K2Node_CallFunction_2181
+[2017.08.18-04.40.12:407][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Particles/P_Explosion' while loading ../../../../../unreal_projects/MC/MCMigrate/Content/ThirdPersonBP/Blueprints/MCMigration.uasset.
+[2017.08.18-04.40.12:407][  0]LoadErrors: Failed to load /Game/StarterContent/Particles/P_Explosion.P_Explosion Referenced by K2Node_CallFunction_2181
+[2017.08.18-04.40.12:407][  0]LoadErrors: Error: /Game/ThirdPersonBP/Blueprints/MCMigration : Can't find file for asset. /Game/StarterContent/Particles/P_Explosion
+[2017.08.18-04.40.12:407][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Explosion_Cue'
+[2017.08.18-04.40.12:407][  0]LoadErrors: Failed to load /Game/StarterContent/Audio/Explosion_Cue.Explosion_Cue Referenced by K2Node_CallFunction_2183
+[2017.08.18-04.40.12:407][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Explosion_Cue' while loading ../../../../../unreal_projects/MC/MCMigrate/Content/ThirdPersonBP/Blueprints/MCMigration.uasset.
+[2017.08.18-04.40.12:407][  0]LoadErrors: Failed to load /Game/StarterContent/Audio/Explosion_Cue.Explosion_Cue Referenced by K2Node_CallFunction_2183
+[2017.08.18-04.40.12:407][  0]LoadErrors: Error: /Game/ThirdPersonBP/Blueprints/MCMigration : Can't find file for asset. /Game/StarterContent/Audio/Explosion_Cue
+[2017.08.18-04.40.12:544][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Explosion_Cue'
+[2017.08.18-04.40.12:544][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Explosion_Cue' while loading ../../../../../unreal_projects/MC/MCMigrate/Content/ThirdPersonBP/Blueprints/enemy.uasset.
+[2017.08.18-04.40.12:544][  0]LoadErrors: Error: /Game/ThirdPersonBP/Blueprints/enemy : Can't find file for asset. /Game/StarterContent/Audio/Explosion_Cue
+[2017.08.18-04.40.12:544][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Particles/P_Explosion'
+[2017.08.18-04.40.12:544][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Particles/P_Explosion' while loading ../../../../../unreal_projects/MC/MCMigrate/Content/ThirdPersonBP/Blueprints/enemy.uasset.
+[2017.08.18-04.40.12:544][  0]LoadErrors: Error: /Game/ThirdPersonBP/Blueprints/enemy : Can't find file for asset. /Game/StarterContent/Particles/P_Explosion
+[2017.08.18-04.40.12:545][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Particles/P_Explosion'
+[2017.08.18-04.40.12:545][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Particles/P_Explosion' while loading ../../../../../unreal_projects/MC/MCMigrate/Content/ThirdPersonBP/Blueprints/enemy.uasset.
+[2017.08.18-04.40.12:545][  0]LoadErrors: Error: /Game/ThirdPersonBP/Blueprints/enemy : Can't find file for asset. /Game/StarterContent/Particles/P_Explosion
+[2017.08.18-04.40.12:545][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Explosion_Cue'
+[2017.08.18-04.40.12:546][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Explosion_Cue' while loading ../../../../../unreal_projects/MC/MCMigrate/Content/ThirdPersonBP/Blueprints/enemy.uasset.
+[2017.08.18-04.40.12:546][  0]LoadErrors: Error: /Game/ThirdPersonBP/Blueprints/enemy : Can't find file for asset. /Game/StarterContent/Audio/Explosion_Cue
+[2017.08.18-04.40.18:449][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.08.18-04.40.18:769][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.18-04.40.18:839][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.18-04.40.18:886][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 45.687ms to complete.
+[2017.08.18-04.40.18:886][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 12.130
+[2017.08.18-04.40.18:966][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.18-04.40.19:382][  0]LogCollectionManager: Loaded 0 collections in 0.002995 seconds
+[2017.08.18-04.40.19:521][  0]LogFileCache: Scanning file cache for directory 'D:/unreal_projects/MC/MCMigrate/Saved/Collections/' took 0.01s
+[2017.08.18-04.40.19:521][  0]LogFileCache: Scanning file cache for directory 'D:/unreal_projects/MC/MCMigrate/Content/Developers/acer/Collections/' took 0.01s
+[2017.08.18-04.40.19:521][  0]LogFileCache: Scanning file cache for directory 'D:/unreal_projects/MC/MCMigrate/Content/Collections/' took 0.01s
+[2017.08.18-04.40.19:521][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.08.18-04.40.19:540][  0]LogContentBrowser: Native class hierarchy populated in 0.0192 seconds. Added 2386 classes and 500 folders.
+[2017.08.18-04.40.19:653][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0019 seconds. Added 0 classes and 0 folders.
+[2017.08.18-04.40.22:281][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0018 seconds. Added 0 classes and 0 folders.
+[2017.08.18-04.40.22:360][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0014 seconds. Added 1 classes and 2 folders.
+[2017.08.18-04.40.22:436][  0]LogSlate: Took 0.000473 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.18-04.40.22:445][  0]LogSlate: Took 0.000567 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.18-04.40.22:516][  0]LogSlate: Took 0.038704 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.18-04.40.23:441][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2017.08.18-04.40.23:654][  0]LogSlate: Took 0.087113 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.18-04.40.23:823][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2017.08.18-04.40.23:824][  0]LogLoad: (Engine Initialization) Total time: 39.68 seconds
+[2017.08.18-04.40.23:824][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.08.18-04.40.23:824][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.08.18-04.40.23:884][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.18-04.40.24:356][  2]LogAssetRegistry: Asset discovery search completed in 30.9566 seconds
+[2017.08.18-04.40.24:358][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.08.18-04.40.24:358][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000064 seconds (updated 0 objects)
+[2017.08.18-04.40.44:908][353]LogSlate: Took 0.000227 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.18-04.40.45:874][353]LogSlate: Took 0.000379 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.18-04.40.46:700][353]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0031 seconds. Added 113 classes and 0 folders.
+[2017.08.18-04.40.48:771][353]LogSlate: Took 0.025351 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.18-04.40.49:908][354]LogSlate: Took 0.036990 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.18-04.40.53:813][405]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.18-04.40.54:042][405]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.18-04.40.54:043][405]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.18-04.40.54:235][405]PIE: New page: PIE session: ThirdPersonExampleMap (Aug 18, 2017, 12:40:54 PM)
+[2017.08.18-04.40.54:235][405]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.08.18-04.40.54:288][405]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052471s)
+[2017.08.18-04.40.54:290][405]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.08.18-04.40.54:290][405]LogPlayLevel: PIE: World Init took: (0.001883s)
+[2017.08.18-04.40.54:290][405]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.055030s)
+[2017.08.18-04.40.54:324][405]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.18-04.40.54:336][405]LogInit: FAudioDevice initialized.
+[2017.08.18-04.40.54:389][405]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.08.18-04.40.54:613][405]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.08.18-08.40.54
+[2017.08.18-04.40.54:817][405]LogWorld: Bringing up level for play took: 0.212092
+[2017.08.18-04.40.54:896][405]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0012 seconds. Added 11 classes and 0 folders.
+[2017.08.18-04.40.54:898][405]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.834
+[2017.08.18-04.40.54:898][405]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.18-04.41.00:235][506]LogBlueprintUserMessages: [MCMigration_102] spell example1 has been cast
+[2017.08.18-04.41.02:160][564]LogBlueprintUserMessages: [MCMigration_102] Hello
+[2017.08.18-04.41.07:480][726]LogBlueprintUserMessages: [MCMigration_102] Hello
+[2017.08.18-04.41.08:469][756]LogBlueprintUserMessages: [MCMigration_102] Hello
+[2017.08.18-04.41.08:930][770]LogBlueprintUserMessages: [MCMigration_102] Hello
+[2017.08.18-04.41.09:292][781]LogBlueprintUserMessages: [MCMigration_102] Hello
+[2017.08.18-04.41.12:656][883]LogBlueprintUserMessages: [MCMigration_102] Hello
+[2017.08.18-04.41.21:415][149]LogBlueprintUserMessages: [MCMigration_102] Hello
+[2017.08.18-04.41.26:831][311]LogBlueprintUserMessages: [MCMigration_102] Hello
+[2017.08.18-04.41.29:171][382]LogBlueprintUserMessages: [MCMigration_102] Hello
+[2017.08.18-04.41.30:587][425]LogBlueprintUserMessages: [MCMigration_102] Hello
+[2017.08.18-04.41.40:823][736]LogBlueprintUserMessages: [MCMigration_102] Hello
+[2017.08.18-04.41.45:404][875]LogBlueprintUserMessages: [MCMigration_102] Hello
+[2017.08.18-04.41.53:639][125]LogBlueprintUserMessages: [MCMigration_102] Hello
+[2017.08.18-04.41.55:483][181]LogBlueprintUserMessages: [MCMigration_102] Hello
+[2017.08.18-04.41.59:443][301]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.18-04.41.59:611][301]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.18-04.43.19:321][950]LogLinker: Can't find file '/Game/characters/Player/CH_MyCharacter'
+[2017.08.18-04.43.19:322][950]LogLinker: Can't find file '/Game/characters/Player/CH_MyCharacter'
+[2017.08.18-04.43.19:473][950]LogBlueprint: Warning: [MCMigration] 'leftshift' variable not found. Base class was probably changed.
+[2017.08.18-04.44.15:363][658]LogRenderer: Reallocating scene render targets to support 1208x712 Format 10 NumSamples 1 (Frame:1).
+[2017.08.18-04.44.41:944][ 33]BlueprintLog: New page: Compile MCMigration
+[2017.08.18-04.44.42:359][ 33]LogBlueprint: Error: [Compiler MCMigration] In use pin  Runtowalk  no longer exists on this node. Please refresh node or break links to remove pin.
+[2017.08.18-04.44.43:164][ 33]LogBlueprint: Warning: [Compiler MCMigration] [0299.02] Compile of MCMigration failed. 1 Fatal Issue(s) 0 Warning(s) [in 1,219 ms] (/Game/ThirdPersonBP/Blueprints/MCMigration.MCMigration)
+[2017.08.18-04.44.44:238][ 48]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.18-04.44.44:267][ 48]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.18-04.44.44:267][ 48]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.18-04.44.48:145][ 48]PIE: New page: PIE session: ThirdPersonExampleMap (Aug 18, 2017, 12:44:48 PM)
+[2017.08.18-04.44.48:145][ 48]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.08.18-04.44.48:167][ 48]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021786s)
+[2017.08.18-04.44.48:168][ 48]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.08.18-04.44.48:168][ 48]LogPlayLevel: PIE: World Init took: (0.001143s)
+[2017.08.18-04.44.48:168][ 48]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.023211s)
+[2017.08.18-04.44.48:192][ 48]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.18-04.44.48:204][ 48]LogInit: FAudioDevice initialized.
+[2017.08.18-04.44.48:238][ 48]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.08.18-04.44.48:242][ 48]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.08.18-08.44.48
+[2017.08.18-04.44.48:243][ 48]LogWorld: Bringing up level for play took: 0.003401
+[2017.08.18-04.44.48:244][ 48]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 4.18
+[2017.08.18-04.44.48:244][ 48]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.18-04.45.00:432][362]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.18-04.45.00:556][362]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.18-04.45.13:006][575]BlueprintLog: New page: Compile MCMigration
+[2017.08.18-04.45.13:752][575]LogBlueprint: Error: [Compiler MCMigration] In use pin  Runtowalk  no longer exists on this node. Please refresh node or break links to remove pin.
+[2017.08.18-04.45.14:484][575]LogBlueprint: Warning: [Compiler MCMigration] [0330.34] Compile of MCMigration failed. 1 Fatal Issue(s) 0 Warning(s) [in 1,477 ms] (/Game/ThirdPersonBP/Blueprints/MCMigration.MCMigration)
+[2017.08.18-04.45.17:062][643]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/MCMigration" FILE="../../../../../unreal_projects/MC/MCMigrate/Content/ThirdPersonBP/Blueprints/MCMigration.uasset" SILENT=true
+[2017.08.18-04.45.18:219][643]LogSavePackage: Save=1112.86ms
+[2017.08.18-04.45.18:220][643]LogSavePackage: Moving '../../../../../unreal_projects/MC/MCMigrate/Saved/MCMigration438D94974CD46CB683B298BDD3FCB2FF.tmp' to '../../../../../unreal_projects/MC/MCMigrate/Content/ThirdPersonBP/Blueprints/MCMigration.uasset'
+[2017.08.18-04.45.18:221][643]LogSavePackage: Display: Finished SavePackage ../../../../../unreal_projects/MC/MCMigrate/Content/ThirdPersonBP/Blueprints/MCMigration.uasset
+[2017.08.18-04.45.39:441][102]LogEditorTransaction: Undo Delete current selection
+[2017.08.18-04.45.39:654][102]LogSlate: Took 0.000271 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.18-04.47.00:436][943]BlueprintLog: New page: Compile MCMigration
+[2017.08.18-04.47.02:885][959]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/MCMigration" FILE="../../../../../unreal_projects/MC/MCMigrate/Content/ThirdPersonBP/Blueprints/MCMigration.uasset" SILENT=true
+[2017.08.18-04.47.04:317][959]LogSavePackage: Save=1425.32ms
+[2017.08.18-04.47.04:317][959]LogSavePackage: Moving '../../../../../unreal_projects/MC/MCMigrate/Saved/MCMigration9F6B5D2947F22A3CA33259BBF09C4911.tmp' to '../../../../../unreal_projects/MC/MCMigrate/Content/ThirdPersonBP/Blueprints/MCMigration.uasset'
+[2017.08.18-04.47.04:319][959]LogSavePackage: Display: Finished SavePackage ../../../../../unreal_projects/MC/MCMigrate/Content/ThirdPersonBP/Blueprints/MCMigration.uasset
+[2017.08.18-04.47.04:858][977]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.18-04.47.04:881][977]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.18-04.47.04:881][977]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.18-04.47.04:881][977]PIE: New page: PIE session: ThirdPersonExampleMap (Aug 18, 2017, 12:47:04 PM)
+[2017.08.18-04.47.04:881][977]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.08.18-04.47.04:902][977]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020561s)
+[2017.08.18-04.47.04:903][977]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.08.18-04.47.04:903][977]LogPlayLevel: PIE: World Init took: (0.001236s)
+[2017.08.18-04.47.04:903][977]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.022225s)
+[2017.08.18-04.47.04:928][977]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.18-04.47.04:941][977]LogInit: FAudioDevice initialized.
+[2017.08.18-04.47.04:981][977]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.08.18-04.47.04:984][977]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.08.18-08.47.04
+[2017.08.18-04.47.04:985][977]LogWorld: Bringing up level for play took: 0.003164
+[2017.08.18-04.47.04:986][977]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.922
+[2017.08.18-04.47.04:986][977]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.18-04.47.06:954][ 36]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.18-04.47.07:080][ 36]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.18-04.47.10:113][ 82]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.18-04.47.10:113][ 82]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.18-04.47.10:113][ 82]PIE: New page: PIE session: ThirdPersonExampleMap (Aug 18, 2017, 12:47:10 PM)
+[2017.08.18-04.47.10:113][ 82]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.08.18-04.47.10:137][ 82]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023666s)
+[2017.08.18-04.47.10:138][ 82]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.08.18-04.47.10:138][ 82]LogPlayLevel: PIE: World Init took: (0.001188s)
+[2017.08.18-04.47.10:139][ 82]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.025240s)
+[2017.08.18-04.47.10:163][ 82]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.18-04.47.10:177][ 82]LogInit: FAudioDevice initialized.
+[2017.08.18-04.47.10:257][ 82]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.08.18-04.47.10:268][ 82]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.08.18-08.47.10
+[2017.08.18-04.47.10:270][ 82]LogWorld: Bringing up level for play took: 0.010460
+[2017.08.18-04.47.10:302][ 82]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.238
+[2017.08.18-04.47.10:302][ 82]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.18-04.47.10:364][ 82]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2017.08.18-04.47.18:478][247]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.18-04.47.18:638][247]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.18-04.48.32:583][440]BlueprintLog: New page: Compile MCMigration
+[2017.08.18-04.48.35:221][472]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.08.18-04.48.35:242][472]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.18-04.48.35:242][472]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.18-04.48.35:242][472]PIE: New page: PIE session: ThirdPersonExampleMap (Aug 18, 2017, 12:48:35 PM)
+[2017.08.18-04.48.35:242][472]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.08.18-04.48.35:258][472]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015752s)
+[2017.08.18-04.48.35:259][472]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.08.18-04.48.35:259][472]LogPlayLevel: PIE: World Init took: (0.000802s)
+[2017.08.18-04.48.35:259][472]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.016804s)
+[2017.08.18-04.48.35:292][472]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.18-04.48.35:304][472]LogInit: FAudioDevice initialized.
+[2017.08.18-04.48.35:363][472]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.08.18-04.48.35:374][472]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.08.18-08.48.35
+[2017.08.18-04.48.35:376][472]LogWorld: Bringing up level for play took: 0.010207
+[2017.08.18-04.48.35:389][472]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.674
+[2017.08.18-04.48.35:390][472]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.18-04.48.42:531][616]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.18-04.48.42:713][616]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.18-04.48.56:426][970]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.08.18-04.48.56:471][970]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.18-04.48.56:471][970]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.08.18-04.48.56:626][970]LogPlayLevel: [PlayLevel] Compiling enemy before play...
+[2017.08.18-04.48.56:638][970]LogPlayLevel: [PlayLevel]   Compiling MCMigration as a dependent...
+[2017.08.18-04.48.57:623][970]LogPlayLevel: PlayLevel: Blueprint regeneration took 1152 ms (2 blueprints)
+[2017.08.18-04.48.57:624][970]PIE: New page: PIE session: ThirdPersonExampleMap (Aug 18, 2017, 12:48:57 PM)
+[2017.08.18-04.48.57:624][970]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.08.18-04.48.57:655][970]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031151s)
+[2017.08.18-04.48.57:657][970]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.08.18-04.48.57:657][970]LogPlayLevel: PIE: World Init took: (0.001855s)
+[2017.08.18-04.48.57:658][970]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.033687s)
+[2017.08.18-04.48.57:688][970]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.18-04.48.57:702][970]LogInit: FAudioDevice initialized.
+[2017.08.18-04.48.57:751][970]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.08.18-04.48.57:762][970]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.08.18-08.48.57
+[2017.08.18-04.48.57:763][970]LogWorld: Bringing up level for play took: 0.009639
+[2017.08.18-04.48.57:777][970]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.714
+[2017.08.18-04.48.57:778][970]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.18-04.49.09:172][201]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.18-04.49.09:288][201]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.18-04.49.11:694][260]BlueprintLog: New page: Compile MCMigration
+[2017.08.18-04.49.14:293][279]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/MCMigration" FILE="../../../../../unreal_projects/MC/MCMigrate/Content/ThirdPersonBP/Blueprints/MCMigration.uasset" SILENT=true
+[2017.08.18-04.49.15:627][279]LogSavePackage: Save=1328.81ms
+[2017.08.18-04.49.15:627][279]LogSavePackage: Moving '../../../../../unreal_projects/MC/MCMigrate/Saved/MCMigrationD5130EF845EA65FE266FB9A44BB8E830.tmp' to '../../../../../unreal_projects/MC/MCMigrate/Content/ThirdPersonBP/Blueprints/MCMigration.uasset'
+[2017.08.18-04.49.15:629][279]LogSavePackage: Display: Finished SavePackage ../../../../../unreal_projects/MC/MCMigrate/Content/ThirdPersonBP/Blueprints/MCMigration.uasset
+[2017.08.18-04.51.38:723][ 63]LogBlueprint: Warning: [Compiler ] Pasted node  CustomEvent   conflicted with  Event BeginPlay  and was replaced as a Custom Event!
+[2017.08.18-04.51.38:752][ 63]LogLinker: Can't find file '/Game/characters/Player/BP_SaveGmae'
+[2017.08.18-04.51.38:753][ 63]LogLinker: Can't find file '/Game/characters/Player/BP_SaveGmae'
+[2017.08.18-04.51.38:766][ 63]LogProperty: Warning: ClassProperty /Script/BlueprintGraph.K2Node_DynamicCast:TargetType: unresolved reference to 'BlueprintGeneratedClass'/Game/characters/Player/BP_SaveGmae.BP_SaveGmae_C''
+[2017.08.18-04.51.38:843][ 63]LogBlueprint: Warning: [MCMigration] 'SaveSlot' variable not found. Base class was probably changed.
+[2017.08.18-04.51.38:843][ 63]LogBlueprint: Warning: [MCMigration] 'SaveGameRef' variable not found. Base class was probably changed.
+[2017.08.18-04.51.38:843][ 63]LogBlueprint: Warning: [MCMigration] 'SaveGameRef' variable not found. Base class was probably changed.
+[2017.08.18-04.51.38:844][ 63]LogBlueprint: Warning: [MCMigration] 'SaveSlot' variable not found. Base class was probably changed.
+[2017.08.18-04.51.38:844][ 63]LogBlueprint: Warning: [MCMigration] 'SaveGameRef' variable not found. Base class was probably changed.
+[2017.08.18-04.51.38:844][ 63]LogBlueprint: Warning: [MCMigration] 'SaveGameRef' variable not found. Base class was probably changed.
+[2017.08.18-04.52.56:561][409]BlueprintLog: New page: Compile MCMigration
+[2017.08.18-04.52.57:225][409]LogBlueprint: Error: [Compiler MCMigration] In use pin  <Unnamed>  no longer exists on this node. Please refresh node or break links to remove pin.
+[2017.08.18-04.52.57:226][409]LogBlueprint: Error: [Compiler MCMigration] Could not find a function named "LoadGame" in 'MCMigration_C'.
+Make sure 'MCMigration_C' has been compiled for  Load Game
+[2017.08.18-04.52.57:226][409]LogBlueprint: Error: [Compiler MCMigration] In use pin  <Unnamed>  no longer exists on this node. Please refresh node or break links to remove pin.
+[2017.08.18-04.52.57:226][409]LogBlueprint: Error: [Compiler MCMigration] Could not find a function named "LoadGame" in 'MCMigration_C'.
+Make sure 'MCMigration_C' has been compiled for  Load Game
+[2017.08.18-04.52.57:226][409]LogBlueprint: Error: [Compiler MCMigration] In use pin  <Unnamed>  no longer exists on this node. Please refresh node or break links to remove pin.
+[2017.08.18-04.52.57:226][409]LogBlueprint: Error: [Compiler MCMigration] Could not find a function named "SaveGame" in 'MCMigration_C'.
+Make sure 'MCMigration_C' has been compiled for  Save Game
+[2017.08.18-04.52.57:227][409]LogBlueprint: Warning: [Compiler MCMigration] Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2017.08.18-04.52.57:227][409]LogBlueprint: Error: [Compiler MCMigration] In use pin  As BP Save Gmae  no longer exists on this node. Please refresh node or break links to remove pin.
+[2017.08.18-04.52.57:227][409]LogBlueprint: Warning: [Compiler MCMigration] Could not find a variable named "SaveGameRef" in 'MCMigration_C'.
+Make sure 'MCMigration_C' has been compiled for  Set SaveGameRef
+[2017.08.18-04.52.57:227][409]LogBlueprint: Warning: [Compiler MCMigration] Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2017.08.18-04.52.57:228][409]LogBlueprint: Warning: [Compiler MCMigration] Could not find a variable named "SaveGameRef" in 'MCMigration_C'.
+Make sure 'MCMigration_C' has been compiled for  Set SaveGameRef
+[2017.08.18-04.52.57:228][409]LogBlueprint: Error: [Compiler MCMigration] In use pin  Return Value  no longer exists on this node. Please refresh node or break links to remove pin.
+[2017.08.18-04.52.57:281][409]LogBlueprint: Error: [Compiler MCMigration] The property associated with  Save Game Ref  could not be found
+[2017.08.18-04.52.57:281][409]LogBlueprint: Error: [Compiler MCMigration] The property associated with  Save Game Ref  could not be found
+[2017.08.18-04.52.58:823][409]LogBlueprint: Warning: [Compiler MCMigration] [0794.68] Compile of MCMigration failed. 10 Fatal Issue(s) 4 Warning(s) [in 2,261 ms] (/Game/ThirdPersonBP/Blueprints/MCMigration.MCMigration)
+[2017.08.18-04.53.12:209][594]BlueprintLog: New page: Compile MCMigration
+[2017.08.18-04.53.12:681][594]LogBlueprint: Error: [Compiler MCMigration] In use pin  <Unnamed>  no longer exists on this node. Please refresh node or break links to remove pin.
+[2017.08.18-04.53.12:682][594]LogBlueprint: Error: [Compiler MCMigration] Could not find a function named "LoadGame" in 'MCMigration_C'.
+Make sure 'MCMigration_C' has been compiled for  Load Game
+[2017.08.18-04.53.12:682][594]LogBlueprint: Error: [Compiler MCMigration] In use pin  <Unnamed>  no longer exists on this node. Please refresh node or break links to remove pin.
+[2017.08.18-04.53.12:682][594]LogBlueprint: Error: [Compiler MCMigration] Could not find a function named "LoadGame" in 'MCMigration_C'.
+Make sure 'MCMigration_C' has been compiled for  Load Game
+[2017.08.18-04.53.12:682][594]LogBlueprint: Error: [Compiler MCMigration] In use pin  <Unnamed>  no longer exists on this node. Please refresh node or break links to remove pin.
+[2017.08.18-04.53.12:682][594]LogBlueprint: Error: [Compiler MCMigration] Could not find a function named "SaveGame" in 'MCMigration_C'.
+Make sure 'MCMigration_C' has been compiled for  Save Game
+[2017.08.18-04.53.12:682][594]LogBlueprint: Warning: [Compiler MCMigration] Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2017.08.18-04.53.12:682][594]LogBlueprint: Error: [Compiler MCMigration] In use pin  As BP Save Gmae  no longer exists on this node. Please refresh node or break links to remove pin.
+[2017.08.18-04.53.12:682][594]LogBlueprint: Warning: [Compiler MCMigration] Could not find a variable named "SaveGameRef" in 'MCMigration_C'.
+Make sure 'MCMigration_C' has been compiled for  Set SaveGameRef
+[2017.08.18-04.53.12:682][594]LogBlueprint: Warning: [Compiler MCMigration] Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2017.08.18-04.53.12:682][594]LogBlueprint: Warning: [Compiler MCMigration] Could not find a variable named "SaveGameRef" in 'MCMigration_C'.
+Make sure 'MCMigration_C' has been compiled for  Set SaveGameRef
+[2017.08.18-04.53.12:682][594]LogBlueprint: Error: [Compiler MCMigration] In use pin  Return Value  no longer exists on this node. Please refresh node or break links to remove pin.
+[2017.08.18-04.53.12:705][594]LogBlueprint: Error: [Compiler MCMigration] The property associated with  Save Game Ref  could not be found
+[2017.08.18-04.53.12:705][594]LogBlueprint: Error: [Compiler MCMigration] The property associated with  Save Game Ref  could not be found
+[2017.08.18-04.53.13:348][594]LogBlueprint: Warning: [Compiler MCMigration] [0809.20] Compile of MCMigration failed. 10 Fatal Issue(s) 4 Warning(s) [in 1,139 ms] (/Game/ThirdPersonBP/Blueprints/MCMigration.MCMigration)
+[2017.08.18-04.53.40:386][759]LogSavePackage: Save=174.14ms
+[2017.08.18-04.53.40:386][759]LogSavePackage: Moving '../../../../../unreal_projects/MC/MCMigrate/Saved/ThirdPersonExampleMap_Auto1BE0BA02149F0883246C934AB4ADA5A65.tmp' to '../../../../../unreal_projects/MC/MCMigrate/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2017.08.18-04.53.40:387][759]LogSavePackage: Display: Finished SavePackage ../../../../../unreal_projects/MC/MCMigrate/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap
+[2017.08.18-04.53.40:389][759]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.288
+[2017.08.18-04.53.40:389][759]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.288
+[2017.08.18-04.53.40:391][759]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/MCMigration] ([1] browsable assets)...
+[2017.08.18-04.53.40:475][759]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/MCMigration.MCMigration]
+[2017.08.18-04.53.40:475][759]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/MCMigration]
+[2017.08.18-04.53.42:121][759]LogSavePackage: Save=1627.03ms
+[2017.08.18-04.53.42:122][759]LogSavePackage: Moving '../../../../../unreal_projects/MC/MCMigrate/Saved/MCMigration_Auto175EEE39C4019CCB21CE30AABC70404A4.tmp' to '../../../../../unreal_projects/MC/MCMigrate/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/MCMigration_Auto1.uasset'
+[2017.08.18-04.53.42:123][759]LogSavePackage: Display: Finished SavePackage ../../../../../unreal_projects/MC/MCMigrate/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/MCMigration_Auto1.uasset
+[2017.08.18-04.53.42:123][759]LogFileHelpers: Auto-saving content packages took 1.733
+[2017.08.18-04.55.17:563][365]LogSlate: Took 0.024039 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.08.18-04.55.25:727][541]BlueprintLog: New page: Compile BP_Savegame
+[2017.08.18-04.55.32:279][599]BlueprintLog: New page: Compile BP_Savegame
+[2017.08.18-04.55.33:083][615]LogSavePackage: Save=15.66ms
+[2017.08.18-04.55.33:083][615]LogSavePackage: Moving '../../../../../unreal_projects/MC/MCMigrate/Saved/BP_Savegame845FCECC4EB5E116CE3FEC828E1FED0D.tmp' to '../../../../../unreal_projects/MC/MCMigrate/Content/ThirdPersonBP/Blueprints/Save_game/BP_Savegame.uasset'
+[2017.08.18-04.55.33:087][615]LogSavePackage: Display: Finished SavePackage ../../../../../unreal_projects/MC/MCMigrate/Content/ThirdPersonBP/Blueprints/Save_game/BP_Savegame.uasset
+[2017.08.18-04.55.46:471][977]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.08.18-04.58.04:105][986]LogProperty: Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/characters/Player/BP_SaveGmae.BP_SaveGmae_C',MemberName="PlayerWeaponSheathed",MemberGuid=DC93C7BD4F164B0568981D8484027938)'
+[2017.08.18-04.58.04:107][986]LogProperty: Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/characters/Player/BP_SaveGmae.BP_SaveGmae_C',MemberName="PlayerInventory",MemberGuid=5B8EC3074740ADB1E897FEBD77BC0406)'
+[2017.08.18-04.58.04:109][986]LogLinker: Can't find file '/Game/interactable/FitemInfo'
+[2017.08.18-04.58.04:109][986]LogLinker: Can't find file '/Game/interactable/FitemInfo'
+[2017.08.18-04.58.04:112][986]LogProperty: Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/characters/Player/BP_SaveGmae.BP_SaveGmae_C',MemberName="PlayerEquipment",MemberGuid=70FF41D84B91B5C971837CA6EFBC81F4)'
+[2017.08.18-04.58.04:131][986]LogProperty: Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/characters/Player/BP_SaveGmae.BP_SaveGmae_C',MemberName="PlayerLocation",MemberGuid=C76AD28D42F0B9334AEE36A053E471B0)'
+[2017.08.18-04.58.04:206][986]LogBlueprint: Warning: [MCMigration] 'PlayerWeaponSheathed' variable not found. Base class was probably changed.
+[2017.08.18-04.58.04:207][986]LogBlueprint: Warning: [MCMigration] 'PlayerWeaponSheathed' variable not found. Base class was probably changed.
+[2017.08.18-04.58.04:207][986]LogBlueprint: Warning: [MCMigration] 'PlayerInventory' variable not found. Base class was probably changed.
+[2017.08.18-04.58.04:207][986]LogBlueprint: Warning: [MCMigration] 'PlayerInventory' variable not found. Base class was probably changed.
+[2017.08.18-04.58.04:207][986]LogBlueprint: Warning: [MCMigration] 'PlayerEquipment' variable not found. Base class was probably changed.
+[2017.08.18-04.58.04:207][986]LogBlueprint: Warning: [MCMigration] 'PlayerEquipment' variable not found. Base class was probably changed.
+[2017.08.18-04.58.04:207][986]LogBlueprint: Warning: [MCMigration] 'HasWeaponAttached' variable not found. Base class was probably changed.
+[2017.08.18-04.58.04:208][986]LogBlueprint: Warning: [MCMigration] 'inventory' variable not found. Base class was probably changed.
+[2017.08.18-04.58.04:208][986]LogBlueprint: Warning: [MCMigration] 'Equipment' variable not found. Base class was probably changed.
+[2017.08.18-04.58.04:209][986]LogBlueprint: Warning: [MCMigration] 'PlayerLocation' variable not found. Base class was probably changed.
+[2017.08.18-04.58.04:209][986]LogBlueprint: Warning: [MCMigration] 'PlayerLocation' variable not found. Base class was probably changed.
+[2017.08.18-04.58.14:595][178]LogEditorTransaction: Undo Paste clipboard contents
+[2017.08.18-04.59.20:428][792]LogProperty: Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/characters/Player/BP_SaveGmae.BP_SaveGmae_C',MemberName="PlayerWeaponSheathed",MemberGuid=DC93C7BD4F164B0568981D8484027938)'
+[2017.08.18-04.59.20:430][792]LogProperty: Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/characters/Player/BP_SaveGmae.BP_SaveGmae_C',MemberName="PlayerInventory",MemberGuid=5B8EC3074740ADB1E897FEBD77BC0406)'
+[2017.08.18-04.59.20:434][792]LogProperty: Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/characters/Player/BP_SaveGmae.BP_SaveGmae_C',MemberName="PlayerEquipment",MemberGuid=70FF41D84B91B5C971837CA6EFBC81F4)'
+[2017.08.18-04.59.20:450][792]LogProperty: Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/characters/Player/BP_SaveGmae.BP_SaveGmae_C',MemberName="PlayerLocation",MemberGuid=C76AD28D42F0B9334AEE36A053E471B0)'
+[2017.08.18-04.59.20:454][792]LogBlueprint: Warning: [MCMigration] 'PlayerWeaponSheathed' variable not found. Base class was probably changed.
+[2017.08.18-04.59.20:454][792]LogBlueprint: Warning: [MCMigration] 'PlayerWeaponSheathed' variable not found. Base class was probably changed.
+[2017.08.18-04.59.20:455][792]LogBlueprint: Warning: [MCMigration] 'PlayerInventory' variable not found. Base class was probably changed.
+[2017.08.18-04.59.20:455][792]LogBlueprint: Warning: [MCMigration] 'PlayerInventory' variable not found. Base class was probably changed.
+[2017.08.18-04.59.20:455][792]LogBlueprint: Warning: [MCMigration] 'PlayerEquipment' variable not found. Base class was probably changed.
+[2017.08.18-04.59.20:455][792]LogBlueprint: Warning: [MCMigration] 'PlayerEquipment' variable not found. Base class was probably changed.
+[2017.08.18-04.59.20:455][792]LogBlueprint: Warning: [MCMigration] 'HasWeaponAttached' variable not found. Base class was probably changed.
+[2017.08.18-04.59.20:455][792]LogBlueprint: Warning: [MCMigration] 'inventory' variable not found. Base class was probably changed.
+[2017.08.18-04.59.20:455][792]LogBlueprint: Warning: [MCMigration] 'Equipment' variable not found. Base class was probably changed.
+[2017.08.18-04.59.20:457][792]LogBlueprint: Warning: [MCMigration] 'PlayerLocation' variable not found. Base class was probably changed.
+[2017.08.18-04.59.20:457][792]LogBlueprint: Warning: [MCMigration] 'PlayerLocation' variable not found. Base class was probably changed.
+[2017.08.18-05.00.18:166][865]BlueprintLog: New page: Compile MCMigration
+[2017.08.18-05.00.18:772][865]LogBlueprint: Error: [Compiler MCMigration] In use pin  <Unnamed>  no longer exists on this node. Please refresh node or break links to remove pin.
+[2017.08.18-05.00.18:772][865]LogBlueprint: Error: [Compiler MCMigration] Could not find a function named "LoadGame" in 'MCMigration_C'.
+Make sure 'MCMigration_C' has been compiled for  Load Game
+[2017.08.18-05.00.18:772][865]LogBlueprint: Error: [Compiler MCMigration] In use pin  <Unnamed>  no longer exists on this node. Please refresh node or break links to remove pin.
+[2017.08.18-05.00.18:773][865]LogBlueprint: Error: [Compiler MCMigration] Could not find a function named "LoadGame" in 'MCMigration_C'.
+Make sure 'MCMigration_C' has been compiled for  Load Game
+[2017.08.18-05.00.19:901][865]LogBlueprint: Warning: [Compiler MCMigration] [1235.76] Compile of MCMigration failed. 4 Fatal Issue(s) 0 Warning(s) [in 1,735 ms] (/Game/ThirdPersonBP/Blueprints/MCMigration.MCMigration)
+[2017.08.18-05.01.18:977][304]BlueprintLog: New page: Compile MCMigration
+[2017.08.18-05.01.19:607][304]LogBlueprint: Error: [Compiler MCMigration] In use pin  <Unnamed>  no longer exists on this node. Please refresh node or break links to remove pin.
+[2017.08.18-05.01.19:607][304]LogBlueprint: Error: [Compiler MCMigration] Could not find a function named "LoadGame" in 'MCMigration_C'.
+Make sure 'MCMigration_C' has been compiled for  Load Game
+[2017.08.18-05.01.19:607][304]LogBlueprint: Error: [Compiler MCMigration] In use pin  <Unnamed>  no longer exists on this node. Please refresh node or break links to remove pin.
+[2017.08.18-05.01.19:608][304]LogBlueprint: Error: [Compiler MCMigration] Could not find a function named "LoadGame" in 'MCMigration_C'.
+Make sure 'MCMigration_C' has been compiled for  Load Game
+[2017.08.18-05.01.20:524][304]LogBlueprint: Warning: [Compiler MCMigration] [1296.38] Compile of MCMigration failed. 4 Fatal Issue(s) 0 Warning(s) [in 1,546 ms] (/Game/ThirdPersonBP/Blueprints/MCMigration.MCMigration)
+[2017.08.18-05.03.07:241][279]LogProperty: Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/characters/Player/BP_SaveGmae.BP_SaveGmae_C',MemberName="PlayerWeaponSheathed",MemberGuid=DC93C7BD4F164B0568981D8484027938)'
+[2017.08.18-05.03.07:248][279]LogProperty: Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/characters/Player/BP_SaveGmae.BP_SaveGmae_C',MemberName="PlayerInventory",MemberGuid=5B8EC3074740ADB1E897FEBD77BC0406)'
+[2017.08.18-05.03.07:253][279]LogProperty: Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/characters/Player/BP_SaveGmae.BP_SaveGmae_C',MemberName="PlayerEquipment",MemberGuid=70FF41D84B91B5C971837CA6EFBC81F4)'
+[2017.08.18-05.03.07:256][279]LogProperty: Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'UserDefinedStruct'/Game/interactable/FitemInfo.FitemInfo',bIsArray=True)'
+[2017.08.18-05.03.07:262][279]LogProperty: Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/characters/Player/BP_SaveGmae.BP_SaveGmae_C',MemberName="PlayerLocation",MemberGuid=C76AD28D42F0B9334AEE36A053E471B0)'
+[2017.08.18-05.03.07:265][279]LogBlueprint: Warning: [MCMigration] 'PlayerWeaponSheathed' variable not found. Base class was probably changed.
+[2017.08.18-05.03.07:266][279]LogBlueprint: Warning: [MCMigration] 'HasWeaponSheathed' variable not found. Base class was probably changed.
+[2017.08.18-05.03.07:266][279]LogBlueprint: Warning: [MCMigration] 'HasWeaponSheathed' variable not found. Base class was probably changed.
+[2017.08.18-05.03.07:266][279]LogBlueprint: Warning: [MCMigration] 'inventory' variable not found. Base class was probably changed.
+[2017.08.18-05.03.07:266][279]LogBlueprint: Warning: [MCMigration] 'inventory' variable not found. Base class was probably changed.
+[2017.08.18-05.03.07:266][279]LogBlueprint: Warning: [MCMigration] 'PlayerInventory' variable not found. Base class was probably changed.
+[2017.08.18-05.03.07:266][279]LogBlueprint: Warning: [MCMigration] 'Equipment' variable not found. Base class was probably changed.
+[2017.08.18-05.03.07:266][279]LogBlueprint: Warning: [MCMigration] 'Equipment' variable not found. Base class was probably changed.
+[2017.08.18-05.03.07:267][279]LogBlueprint: Warning: [MCMigration] 'PlayerEquipment' variable not found. Base class was probably changed.
+[2017.08.18-05.03.07:268][279]LogBlueprint: Warning: [MCMigration] 'PlayerLocation' variable not found. Base class was probably changed.
+[2017.08.18-05.04.20:034][776]LogSavePackage: Save=165.09ms
+[2017.08.18-05.04.20:035][776]LogSavePackage: Moving '../../../../../unreal_projects/MC/MCMigrate/Saved/ThirdPersonExampleMap_Auto2B8AD4078451211C2E84DEDB8C418AFFA.tmp' to '../../../../../unreal_projects/MC/MCMigrate/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap'
+[2017.08.18-05.04.20:036][776]LogSavePackage: Display: Finished SavePackage ../../../../../unreal_projects/MC/MCMigrate/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap
+[2017.08.18-05.04.20:039][776]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.257
+[2017.08.18-05.04.20:039][776]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.257
+[2017.08.18-05.04.20:041][776]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/MCMigration] ([1] browsable assets)...
+[2017.08.18-05.04.20:125][776]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/MCMigration.MCMigration]
+[2017.08.18-05.04.20:125][776]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/MCMigration]
+[2017.08.18-05.04.21:404][776]LogSavePackage: Save=1255.23ms
+[2017.08.18-05.04.21:404][776]LogSavePackage: Moving '../../../../../unreal_projects/MC/MCMigrate/Saved/MCMigration_Auto2FBBE7B704106A033F0AC4DBAA618133B.tmp' to '../../../../../unreal_projects/MC/MCMigrate/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/MCMigration_Auto2.uasset'
+[2017.08.18-05.04.21:406][776]LogSavePackage: Display: Finished SavePackage ../../../../../unreal_projects/MC/MCMigrate/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/MCMigration_Auto2.uasset
+[2017.08.18-05.04.21:406][776]LogFileHelpers: Auto-saving content packages took 1.366
+[2017.08.18-05.04.50:932][535]BlueprintLog: New page: Compile MCMigration
+[2017.08.18-05.04.51:679][535]LogBlueprint: Error: [Compiler MCMigration] In use pin  <Unnamed>  no longer exists on this node. Please refresh node or break links to remove pin.
+[2017.08.18-05.04.51:717][535]LogBlueprint: Error: [Compiler MCMigration] The type of  Array  is undetermined.  Connect something to  ForEachLoop  to imply a specific type.
+[2017.08.18-05.04.51:717][535]LogBlueprint: Error: [Compiler MCMigration] The type of  Target Array  is undetermined.  Connect something to  Length  to imply a specific type.
+[2017.08.18-05.04.52:679][535]LogBlueprint: Warning: [Compiler MCMigration] [1508.53] Compile of MCMigration failed. 3 Fatal Issue(s) 0 Warning(s) [in 1,746 ms] (/Game/ThirdPersonBP/Blueprints/MCMigration.MCMigration)
+[2017.08.18-05.05.24:846][ 49]BlueprintLog: New page: Compile MCMigration
+[2017.08.18-05.05.25:569][ 49]LogBlueprint: Error: [Compiler MCMigration] In use pin  <Unnamed>  no longer exists on this node. Please refresh node or break links to remove pin.
+[2017.08.18-05.05.27:330][ 49]LogBlueprint: Warning: [Compiler MCMigration] [1543.19] Compile of MCMigration failed. 1 Fatal Issue(s) 0 Warning(s) [in 2,484 ms] (/Game/ThirdPersonBP/Blueprints/MCMigration.MCMigration)
+[2017.08.18-05.06.23:984][713]BlueprintLog: New page: Compile MCMigration
+[2017.08.18-05.06.24:649][713]LogBlueprint: Error: [Compiler MCMigration] In use pin  <Unnamed>  no longer exists on this node. Please refresh node or break links to remove pin.
+[2017.08.18-05.06.25:479][713]LogBlueprint: Warning: [Compiler MCMigration] [1601.33] Compile of MCMigration failed. 1 Fatal Issue(s) 0 Warning(s) [in 1,495 ms] (/Game/ThirdPersonBP/Blueprints/MCMigration.MCMigration)
+[2017.08.18-05.06.26:137][724]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/MCMigration" FILE="../../../../../unreal_projects/MC/MCMigrate/Content/ThirdPersonBP/Blueprints/MCMigration.uasset" SILENT=true
+[2017.08.18-05.06.27:250][724]LogSavePackage: Save=969.47ms
+[2017.08.18-05.06.27:250][724]LogSavePackage: Moving '../../../../../unreal_projects/MC/MCMigrate/Saved/MCMigration2D95FE7148A32034AE6AB7929BF2D013.tmp' to '../../../../../unreal_projects/MC/MCMigrate/Content/ThirdPersonBP/Blueprints/MCMigration.uasset'
+[2017.08.18-05.06.27:255][724]LogSavePackage: Display: Finished SavePackage ../../../../../unreal_projects/MC/MCMigrate/Content/ThirdPersonBP/Blueprints/MCMigration.uasset
+[2017.08.18-05.07.24:422][855]BlueprintLog: New page: Compile MCMigration
+[2017.08.18-05.07.26:801][867]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/MCMigration" FILE="../../../../../unreal_projects/MC/MCMigrate/Content/ThirdPersonBP/Blueprints/MCMigration.uasset" SILENT=true
+[2017.08.18-05.07.28:214][867]LogSavePackage: Save=1408.61ms
+[2017.08.18-05.07.28:214][867]LogSavePackage: Moving '../../../../../unreal_projects/MC/MCMigrate/Saved/MCMigrationF3ECC05843413B062A2B2B90B15D1E25.tmp' to '../../../../../unreal_projects/MC/MCMigrate/Content/ThirdPersonBP/Blueprints/MCMigration.uasset'
+[2017.08.18-05.07.28:216][867]LogSavePackage: Display: Finished SavePackage ../../../../../unreal_projects/MC/MCMigrate/Content/ThirdPersonBP/Blueprints/MCMigration.uasset
+[2017.08.18-05.07.57:080][654]BlueprintLog: New page: Compile MCMigration
+[2017.08.18-05.07.58:961][668]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/MCMigration" FILE="../../../../../unreal_projects/MC/MCMigrate/Content/ThirdPersonBP/Blueprints/MCMigration.uasset" SILENT=true
+[2017.08.18-05.08.00:228][668]LogSavePackage: Save=1258.95ms
+[2017.08.18-05.08.00:228][668]LogSavePackage: Moving '../../../../../unreal_projects/MC/MCMigrate/Saved/MCMigrationB633AC7D4C42ACDAAA31D88E3175A4F8.tmp' to '../../../../../unreal_projects/MC/MCMigrate/Content/ThirdPersonBP/Blueprints/MCMigration.uasset'
+[2017.08.18-05.08.00:230][668]LogSavePackage: Display: Finished SavePackage ../../../../../unreal_projects/MC/MCMigrate/Content/ThirdPersonBP/Blueprints/MCMigration.uasset
+[2017.08.18-05.08.00:772][686]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.08.18-05.08.00:794][686]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.18-05.08.00:794][686]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.18-05.08.00:794][686]PIE: New page: PIE session: ThirdPersonExampleMap (Aug 18, 2017, 1:08:00 PM)
+[2017.08.18-05.08.00:794][686]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.08.18-05.08.00:819][686]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025274s)
+[2017.08.18-05.08.00:820][686]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.08.18-05.08.00:821][686]LogPlayLevel: PIE: World Init took: (0.001207s)
+[2017.08.18-05.08.00:821][686]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.026832s)
+[2017.08.18-05.08.00:847][686]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.18-05.08.00:860][686]LogInit: FAudioDevice initialized.
+[2017.08.18-05.08.00:917][686]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.08.18-05.08.00:921][686]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.08.18-09.08.00
+[2017.08.18-05.08.00:922][686]LogWorld: Bringing up level for play took: 0.003591
+[2017.08.18-05.08.00:927][686]LogBlueprintUserMessages: [MCMigration_102] Saved Game =true
+[2017.08.18-05.08.00:944][686]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.88
+[2017.08.18-05.08.00:945][686]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.18-05.08.10:870][887]Set new viewmode: ShaderComplexity
+[2017.08.18-05.08.10:878][887]LogBlueprintUserMessages: [MCMigration_102] Saved Game =true
+[2017.08.18-05.08.13:126][933]Set new viewmode: ShaderComplexity
+[2017.08.18-05.08.13:130][933]LogBlueprintUserMessages: [MCMigration_102] Saved Game =true
+[2017.08.18-05.08.17:088][ 14]Set new viewmode: ShaderComplexity
+[2017.08.18-05.08.17:092][ 14]LogBlueprintUserMessages: [MCMigration_102] Saved Game =true
+[2017.08.18-05.08.28:783][253]Set new viewmode: Unlit
+[2017.08.18-05.08.30:103][280]Set new viewmode: Lit
+[2017.08.18-05.08.32:636][330]LogRenderer: Reallocating scene render targets to support 1920x1016 Format 10 NumSamples 1 (Frame:646).
+[2017.08.18-05.08.42:404][530]LogBlueprintUserMessages: [MCMigration_102] LoadedGame
+[2017.08.18-05.08.51:737][704]Set new viewmode: ShaderComplexity
+[2017.08.18-05.08.51:746][704]LogBlueprintUserMessages: [MCMigration_102] Saved Game =true
+[2017.08.18-05.08.53:204][734]Set new viewmode: Lit
+[2017.08.18-05.09.03:289][940]LogBlueprintUserMessages: [MCMigration_102] Hello
+[2017.08.18-05.09.05:881][993]LogBlueprintUserMessages: [MCMigration_102] Hello
+[2017.08.18-05.09.12:482][128]LogBlueprintUserMessages: [MCMigration_102] LoadedGame
+[2017.08.18-05.09.18:059][226]LogBlueprintUserMessages: [MCMigration_102] LoadedGame
+[2017.08.18-05.09.28:545][426]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.18-05.09.28:736][426]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.18-05.09.31:284][486]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/MCMigration" FILE="../../../../../unreal_projects/MC/MCMigrate/Content/ThirdPersonBP/Blueprints/MCMigration.uasset" SILENT=true
+[2017.08.18-05.09.33:249][486]LogSavePackage: Save=1948.39ms
+[2017.08.18-05.09.33:249][486]LogSavePackage: Moving '../../../../../unreal_projects/MC/MCMigrate/Saved/MCMigrationBF2AC34D48DC520C3B67BCA6A92C103E.tmp' to '../../../../../unreal_projects/MC/MCMigrate/Content/ThirdPersonBP/Blueprints/MCMigration.uasset'
+[2017.08.18-05.09.33:251][486]LogSavePackage: Display: Finished SavePackage ../../../../../unreal_projects/MC/MCMigrate/Content/ThirdPersonBP/Blueprints/MCMigration.uasset
+[2017.08.18-05.10.00:177][113]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/MCMigration" FILE="../../../../../unreal_projects/MC/MCMigrate/Content/ThirdPersonBP/Blueprints/MCMigration.uasset" SILENT=true
+[2017.08.18-05.10.01:799][113]LogSavePackage: Save=1614.01ms
+[2017.08.18-05.10.01:799][113]LogSavePackage: Moving '../../../../../unreal_projects/MC/MCMigrate/Saved/MCMigration77CA33134274E4B8EF4FED891DBFB42B.tmp' to '../../../../../unreal_projects/MC/MCMigrate/Content/ThirdPersonBP/Blueprints/MCMigration.uasset'
+[2017.08.18-05.10.01:800][113]LogSavePackage: Display: Finished SavePackage ../../../../../unreal_projects/MC/MCMigrate/Content/ThirdPersonBP/Blueprints/MCMigration.uasset
+[2017.08.18-05.10.10:555][312]LogSavePackage: Save=80.92ms
+[2017.08.18-05.10.10:555][312]LogSavePackage: Moving '../../../../../unreal_projects/MC/MCMigrate/Saved/ThirdPersonExampleMapAB7BADFC4DFDC77EBFEBA8BEC5CDFA95.tmp' to '../../../../../unreal_projects/MC/MCMigrate/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.08.18-05.10.10:558][312]LogSavePackage: Display: Finished SavePackage ../../../../../unreal_projects/MC/MCMigrate/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.08.18-05.10.10:593][312]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.195
+[2017.08.18-05.10.10:691][312]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.18-05.10.10:888][313]Cmd: QUIT_EDITOR
+[2017.08.18-05.10.11:356][313]LogExit: Preparing to exit.
+[2017.08.18-05.10.11:840][313]LogDirectoryWatcher: A directory notification for 'D:/unreal_projects/MC/MCMigrate/Content/' was aborted.
+[2017.08.18-05.10.11:937][313]LogExit: Editor shut down
+[2017.08.18-05.10.11:957][313]LogExit: Transaction tracking system shut down
+[2017.08.18-05.10.12:229][313]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.08.18-05.10.12:230][313]LogDirectoryWatcher: A directory notification for '../../../../../unreal_projects/MC/MCMigrate/Content/' was aborted.
+[2017.08.18-05.10.12:230][313]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.08.18-05.10.12:230][313]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.08.18-05.10.12:230][313]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.08.18-05.10.12:463][313]LogExit: Object subsystem successfully closed.
+[2017.08.18-05.10.12:499][313]LogD3D11RHI: Shutdown
+[2017.08.18-05.10.12:499][313]LogD3D11RHI: CleanupD3DDevice
+[2017.08.18-05.10.12:620][313]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.08.18-05.10.12:631][313]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (536)
+[2017.08.18-05.10.12:631][313]LogModuleManager: Shutting down and abandoning module BlueprintGraph (534)
+[2017.08.18-05.10.12:631][313]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (532)
+[2017.08.18-05.10.12:631][313]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2017.08.18-05.10.12:631][313]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2017.08.18-05.10.12:631][313]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2017.08.18-05.10.12:632][313]LogDirectoryWatcher: A directory notification for 'D:/unreal/UE_4.17/FeaturePacks/' was aborted.
+[2017.08.18-05.10.12:632][313]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2017.08.18-05.10.12:633][313]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2017.08.18-05.10.12:633][313]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2017.08.18-05.10.12:633][313]LogDirectoryWatcher: A directory notification for 'D:/unreal_projects/MC/MCMigrate/Content/Collections/' was aborted.
+[2017.08.18-05.10.12:633][313]LogDirectoryWatcher: A directory notification for 'D:/unreal_projects/MC/MCMigrate/Content/Developers/acer/Collections/' was aborted.
+[2017.08.18-05.10.12:633][313]LogDirectoryWatcher: A directory notification for 'D:/unreal_projects/MC/MCMigrate/Saved/Collections/' was aborted.
+[2017.08.18-05.10.12:633][313]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2017.08.18-05.10.12:633][313]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2017.08.18-05.10.12:633][313]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2017.08.18-05.10.12:633][313]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2017.08.18-05.10.12:633][313]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2017.08.18-05.10.12:633][313]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2017.08.18-05.10.12:633][313]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2017.08.18-05.10.12:633][313]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2017.08.18-05.10.12:633][313]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2017.08.18-05.10.12:633][313]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2017.08.18-05.10.12:633][313]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2017.08.18-05.10.12:633][313]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2017.08.18-05.10.12:633][313]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2017.08.18-05.10.12:633][313]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2017.08.18-05.10.12:633][313]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2017.08.18-05.10.12:633][313]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2017.08.18-05.10.12:633][313]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2017.08.18-05.10.12:633][313]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2017.08.18-05.10.12:633][313]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2017.08.18-05.10.12:633][313]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2017.08.18-05.10.12:633][313]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2017.08.18-05.10.12:633][313]LogModuleManager: Shutting down and abandoning module Media (477)
+[2017.08.18-05.10.12:633][313]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2017.08.18-05.10.12:633][313]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2017.08.18-05.10.12:633][313]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2017.08.18-05.10.12:633][313]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2017.08.18-05.10.12:633][313]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2017.08.18-05.10.12:633][313]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2017.08.18-05.10.12:634][313]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2017.08.18-05.10.12:634][313]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2017.08.18-05.10.12:634][313]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2017.08.18-05.10.12:634][313]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2017.08.18-05.10.12:634][313]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2017.08.18-05.10.12:634][313]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2017.08.18-05.10.12:634][313]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2017.08.18-05.10.12:634][313]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2017.08.18-05.10.12:634][313]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2017.08.18-05.10.12:634][313]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2017.08.18-05.10.12:934][313]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2017.08.18-05.10.12:934][313]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2017.08.18-05.10.12:934][313]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2017.08.18-05.10.12:934][313]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2017.08.18-05.10.12:934][313]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2017.08.18-05.10.12:934][313]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2017.08.18-05.10.12:934][313]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2017.08.18-05.10.12:934][313]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2017.08.18-05.10.12:934][313]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2017.08.18-05.10.12:934][313]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2017.08.18-05.10.12:934][313]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2017.08.18-05.10.12:934][313]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2017.08.18-05.10.12:934][313]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2017.08.18-05.10.12:935][313]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2017.08.18-05.10.12:935][313]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2017.08.18-05.10.12:935][313]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2017.08.18-05.10.12:935][313]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2017.08.18-05.10.12:935][313]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2017.08.18-05.10.12:935][313]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2017.08.18-05.10.12:935][313]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2017.08.18-05.10.12:935][313]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2017.08.18-05.10.12:935][313]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2017.08.18-05.10.12:935][313]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2017.08.18-05.10.12:935][313]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2017.08.18-05.10.12:999][313]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2017.08.18-05.10.12:999][313]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2017.08.18-05.10.12:999][313]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2017.08.18-05.10.12:999][313]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2017.08.18-05.10.12:999][313]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2017.08.18-05.10.12:999][313]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2017.08.18-05.10.12:999][313]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2017.08.18-05.10.13:000][313]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2017.08.18-05.10.13:000][313]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2017.08.18-05.10.13:000][313]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2017.08.18-05.10.13:023][313]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2017.08.18-05.10.13:026][313]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2017.08.18-05.10.13:026][313]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2017.08.18-05.10.13:026][313]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2017.08.18-05.10.13:026][313]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2017.08.18-05.10.13:026][313]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2017.08.18-05.10.13:026][313]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2017.08.18-05.10.13:027][313]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2017.08.18-05.10.13:027][313]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2017.08.18-05.10.13:027][313]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2017.08.18-05.10.13:027][313]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2017.08.18-05.10.13:027][313]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2017.08.18-05.10.13:027][313]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2017.08.18-05.10.13:027][313]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2017.08.18-05.10.13:027][313]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2017.08.18-05.10.13:027][313]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2017.08.18-05.10.13:027][313]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2017.08.18-05.10.13:027][313]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2017.08.18-05.10.13:027][313]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2017.08.18-05.10.13:027][313]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2017.08.18-05.10.13:027][313]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2017.08.18-05.10.13:147][313]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2017.08.18-05.10.13:147][313]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2017.08.18-05.10.13:147][313]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2017.08.18-05.10.13:147][313]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2017.08.18-05.10.13:147][313]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2017.08.18-05.10.13:147][313]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2017.08.18-05.10.13:147][313]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2017.08.18-05.10.13:147][313]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2017.08.18-05.10.13:148][313]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2017.08.18-05.10.13:148][313]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2017.08.18-05.10.13:148][313]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2017.08.18-05.10.13:148][313]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2017.08.18-05.10.13:148][313]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2017.08.18-05.10.13:148][313]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2017.08.18-05.10.13:148][313]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2017.08.18-05.10.13:148][313]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2017.08.18-05.10.13:148][313]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2017.08.18-05.10.13:148][313]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2017.08.18-05.10.13:148][313]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2017.08.18-05.10.13:148][313]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2017.08.18-05.10.13:148][313]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2017.08.18-05.10.13:148][313]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2017.08.18-05.10.13:148][313]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2017.08.18-05.10.13:149][313]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2017.08.18-05.10.13:149][313]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2017.08.18-05.10.13:149][313]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2017.08.18-05.10.13:149][313]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2017.08.18-05.10.13:149][313]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2017.08.18-05.10.13:149][313]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2017.08.18-05.10.13:149][313]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2017.08.18-05.10.13:149][313]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2017.08.18-05.10.13:149][313]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2017.08.18-05.10.13:151][313]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2017.08.18-05.10.13:151][313]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2017.08.18-05.10.13:151][313]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2017.08.18-05.10.13:152][313]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.08.18-05.10.13:152][313]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.08.18-05.10.13:152][313]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.08.18-05.10.13:152][313]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.08.18-05.10.13:152][313]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.08.18-05.10.13:152][313]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.08.18-05.10.13:152][313]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.08.18-05.10.13:152][313]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.08.18-05.10.13:252][313]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.08.18-05.10.13:353][313]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.08.18-05.10.13:353][313]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.08.18-05.10.13:353][313]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.08.18-05.10.13:353][313]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.08.18-05.10.13:353][313]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.08.18-05.10.13:353][313]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.08.18-05.10.13:354][313]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.08.18-05.10.13:354][313]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.08.18-05.10.13:354][313]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.08.18-05.10.13:354][313]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.08.18-05.10.13:355][313]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.08.18-05.10.13:355][313]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.08.18-05.10.13:355][313]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.08.18-05.10.13:355][313]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.08.18-05.10.13:355][313]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.08.18-05.10.13:355][313]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.08.18-05.10.13:355][313]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.08.18-05.10.13:355][313]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.08.18-05.10.13:355][313]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.08.18-05.10.13:355][313]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.08.18-05.10.13:355][313]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.08.18-05.10.13:355][313]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.08.18-05.10.13:355][313]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.08.18-05.10.13:355][313]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.08.18-05.10.13:355][313]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.08.18-05.10.13:355][313]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.08.18-05.10.13:355][313]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.08.18-05.10.13:355][313]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.08.18-05.10.13:355][313]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.08.18-05.10.13:355][313]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.08.18-05.10.13:360][313]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.08.18-05.10.13:360][313]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.08.18-05.10.13:360][313]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.08.18-05.10.13:360][313]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.08.18-05.10.13:360][313]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.08.18-05.10.13:360][313]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.08.18-05.10.13:360][313]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.08.18-05.10.13:360][313]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2017.08.18-05.10.13:360][313]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2017.08.18-05.10.13:360][313]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2017.08.18-05.10.13:360][313]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2017.08.18-05.10.13:360][313]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2017.08.18-05.10.13:360][313]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2017.08.18-05.10.13:360][313]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2017.08.18-05.10.13:360][313]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2017.08.18-05.10.13:360][313]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.08.18-05.10.13:361][313]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.08.18-05.10.13:396][313]LogDerivedDataCache: Shutdown
+[2017.08.18-05.10.13:396][313]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.08.18-05.10.13:396][313]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.08.18-05.10.13:396][313]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.08.18-05.10.13:396][313]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.08.18-05.10.13:396][313]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.08.18-05.10.13:396][313]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.08.18-05.10.13:396][313]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.08.18-05.10.13:396][313]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.08.18-05.10.13:396][313]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.08.18-05.10.13:397][313]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.08.18-05.10.13:397][313]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.08.18-05.10.13:397][313]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.08.18-05.10.13:397][313]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.08.18-05.10.13:397][313]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.08.18-05.10.13:397][313]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.08.18-05.10.13:397][313]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.08.18-05.10.13:397][313]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.08.18-05.10.13:397][313]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.08.18-05.10.13:397][313]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.08.18-05.10.13:397][313]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.08.18-05.10.13:397][313]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.08.18-05.10.13:397][313]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.08.18-05.10.13:397][313]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.08.18-05.10.13:397][313]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.08.18-05.10.13:397][313]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.08.18-05.10.13:397][313]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.08.18-05.10.13:397][313]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.08.18-05.10.13:398][313]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.08.18-05.10.13:398][313]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.08.18-05.10.13:398][313]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.08.18-05.10.13:398][313]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.08.18-05.10.13:398][313]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.08.18-05.10.13:398][313]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.08.18-05.10.13:398][313]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.08.18-05.10.13:398][313]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.08.18-05.10.13:398][313]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.08.18-05.10.13:398][313]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.08.18-05.10.13:398][313]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.08.18-05.10.13:398][313]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.08.18-05.10.13:399][313]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.08.18-05.10.13:399][313]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.08.18-05.10.13:399][313]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.08.18-05.10.13:399][313]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.08.18-05.10.13:399][313]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.08.18-05.10.13:399][313]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.08.18-05.10.13:399][313]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.08.18-05.10.13:399][313]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.08.18-05.10.13:399][313]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.08.18-05.10.13:399][313]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.08.18-05.10.13:399][313]LogOnline: Display: Unloading online subsystem: NULL
+[2017.08.18-05.10.13:400][313]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.08.18-05.10.13:400][313]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.08.18-05.10.13:400][313]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.08.18-05.10.13:400][313]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B31B09498-4239-2A5E-834B-98B512186429%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.1-3586342%2B%2B%2BUE4%2BRelease-4.17&UserID=87e3230744129487800b808d789508a3%7Cd9836791cb1240cd8101a4d23281973d%7Cdba1d623-b8f1-4710-a2b6-ac8e993f03d7&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.08.18-05.10.13:415][313]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.08.18-05.10.13:420][313]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.08.18-05.10.13:420][313]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.08.18-05.10.13:420][313]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.08.18-05.10.13:420][313]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.08.18-05.10.13:421][313]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.08.18-05.10.13:421][313]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.08.18-05.10.13:421][313]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.08.18-05.10.13:426][313]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.08.18-05.10.13:427][313]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.08.18-05.10.13:427][313]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.08.18-05.10.13:427][313]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.08.18-05.10.13:427][313]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.08.18-05.10.13:427][313]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.08.18-05.10.13:427][313]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.08.18-05.10.13:427][313]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.08.18-05.10.13:427][313]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.08.18-05.10.13:427][313]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.08.18-05.10.13:427][313]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.08.18-05.10.13:436][313]LogExit: Exiting.
+[2017.08.18-05.10.13:480][313]Log file closed, 08/18/17 09:10:13
