@@ -32,3 +32,5 @@ Load Game: F9
 Ragdoll: LMB //only for testing purpose
 
 Unragdoll: Caps Lock //only for testing purpose //not working yet
+
+Crouch: Left Ctrl //not done yet
