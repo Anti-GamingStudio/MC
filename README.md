@@ -34,3 +34,5 @@ Ragdoll: LMB //only for testing purpose
 Unragdoll: Caps Lock //only for testing purpose //not working yet
 
 Crouch: Left Ctrl //not done yet
+
+Show Map: M
